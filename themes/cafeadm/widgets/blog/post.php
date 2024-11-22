@@ -1,5 +1,5 @@
 <?php $this->layout("_admin"); ?>
-<?php $this->insert("widgets/blog/sidebar.php"); ?>
+<?php $this->insert("widgets/blog/sidebar"); ?>
 
 <div class="mce_upload" style="z-index: 997">
     <div class="mce_upload_box">
@@ -152,13 +152,13 @@
                         <span class="legend">*Autor:</span>
                         <select name="author" required>
                             <?php foreach ($authors as $author):
-                                $authorId = $author->id;
+                                $authorId = $post->author;
                                 $select = function ($value) use ($authorId) {
                                     return ($authorId == $value ? "selected" : "");
                                 };
                                 ?>
-                                <option <?= $select($post->author); ?>
-                                        value="<?= $author->id; ?>"><?= $post->author()->fullName(); ?></option>
+                                <option <?= $select($author->id); ?>
+                                        value="<?= $author->id; ?>"><?= $author->fullName(); ?></option>
                             <?php endforeach; ?>
                         </select>
                     </label>

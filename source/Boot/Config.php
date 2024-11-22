@@ -2,17 +2,17 @@
 /**
  * DATABASE
  */
-define("CONF_DB_HOST", "10.23.237.201");
-define("CONF_DB_USER", "smsubcoti");
-define("CONF_DB_PASS", ")f9aGXVCh8YqJ8[L");
+define("CONF_DB_HOST", "localhost");
+define("CONF_DB_USER", "root");
+define("CONF_DB_PASS", "");
 define("CONF_DB_NAME", "cafecontrol");
 
 /**
  * PROJECT URLs
  */
-define("CONF_URL_BASE", "https://10.23.237.201/cafecontrol");
+define("CONF_URL_BASE", "https://192.168.15.54/cafecontrol");
 define("CONF_URL_TESTE", "https://127.0.0.1/cafecontrol");
-define("CONF_URL_ADMIN", "/dashboard");
+
 
 /**
  * SITE
@@ -33,15 +33,15 @@ define("CONF_SITE_ADDR_ZIPCODE", "88048-301");
 /**
  * SOCIAL
  */
-define("CONF_SOCIAL_TWITTER_CREATOR", "@robsonvleite");
-define("CONF_SOCIAL_TWITTER_PUBLISHER", "@robsonvleite");
-define("CONF_SOCIAL_FACEBOOK_APP", "626590460695980");
-define("CONF_SOCIAL_FACEBOOK_PAGE", "upinside");
-define("CONF_SOCIAL_FACEBOOK_AUTHOR", "robsonvleiteoficial");
-define("CONF_SOCIAL_GOOGLE_PAGE", "107305124528362639842");
-define("CONF_SOCIAL_GOOGLE_AUTHOR", "103958419096641225872");
-define("CONF_SOCIAL_INSTAGRAM_PAGE", "robsonvleite");
-define("CONF_SOCIAL_YOUTUBE_PAGE", "upinside");
+define("CONF_SOCIAL_TWITTER_CREATOR", "@creator");
+define("CONF_SOCIAL_TWITTER_PUBLISHER", "@creator");
+define("CONF_SOCIAL_FACEBOOK_APP", "5555555555");
+define("CONF_SOCIAL_FACEBOOK_PAGE", "pagename");
+define("CONF_SOCIAL_FACEBOOK_AUTHOR", "author");
+define("CONF_SOCIAL_GOOGLE_PAGE", "5555555555");
+define("CONF_SOCIAL_GOOGLE_AUTHOR", "5555555555");
+define("CONF_SOCIAL_INSTAGRAM_PAGE", "insta");
+define("CONF_SOCIAL_YOUTUBE_PAGE", "youtube");
 
 /**
  * DATES
@@ -87,9 +87,9 @@ define("CONF_IMAGE_QUALITY", ["jpg" => 75, "png" => 5]);
 define("CONF_MAIL_HOST", "smtp.sendgrid.net");
 define("CONF_MAIL_PORT", "587");
 define("CONF_MAIL_USER", "apikey");
-define("CONF_MAIL_PASS", "**********");
-define("CONF_MAIL_SENDER", ["name" => "Robson V. Leite", "address" => "email@email.com"]);
-define("CONF_MAIL_SUPPORT", "email@email.com");
+define("CONF_MAIL_PASS", "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");
+define("CONF_MAIL_SENDER", ["name" => "Robson V. Leite", "address" => "sender@email.com"]);
+define("CONF_MAIL_SUPPORT", "sender@support.com");
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);
 define("CONF_MAIL_OPTION_AUTH", true);

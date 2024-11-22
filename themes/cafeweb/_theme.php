@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-        <meta name="mit" content="2024-06-12T12:58:07-03:00+197772">
+        <meta name="mit" content="2024-11-05T23:38:17-03:00+197772">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <?= $head; ?>

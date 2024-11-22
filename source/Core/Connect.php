@@ -45,15 +45,14 @@ class Connect
     /**
      * Connect constructor.
      */
-    final private function __construct()
+    private function __construct()
     {
     }
 
     /**
      * Connect clone.
-     * @return void
      */
-    final protected function __clone()
+    private function __clone()
     {
         // TODO: Implement __clone() method.
     }
